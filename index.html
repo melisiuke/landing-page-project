@@ -1,4 +1,12 @@
 <style>
+   html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 .container1 {
   height: 500px;
   padding: 16px;
@@ -17,14 +25,14 @@
    width: 400px;
   padding: 16px;
   right: 700px;
-   top:100px;
+   top:60px;
    line-height: 1;
   text-align: left;
   flex-direction: ;
 }
 .box2{
    position: relative;
-   background-color:rgb(255, 213, 236);
+   background-color:#5d88e6;
    height: 250px;
    width: 500px;
   padding: 16px;
@@ -42,9 +50,9 @@ h1{
    
    position: relative;
    color: rgb(249, 251, 252);
-   font-family: 'M PLUS Rounded 1c', sans-serif;
+   font-family: 'M PLUS Rounded 1c', Arial, Helvetica, sans-serif;
    font-size:24px;
-   left: 160px;
+   left: 180px;
    top:10px;
 }
  
@@ -55,18 +63,64 @@ a{
    font-size:18px;
    left: 550px;
 }
+p{
+   font-family: 'M PLUS Rounded 1c', sans-serif;
 
-   
+}
+
+.button {
+  background-color: #5d88e6;
+  border: none;
+  border-radius: 5%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
    
 
 .container2{
    height: 350px;
-  padding: 16px;
+  
   background: rgb(255, 255, 255);
   border: 4px solid rgb(255, 254, 255);
+  padding-top: -60px;
+  padding-right: 200px;
+  padding-bottom: 80px;
+  padding-left: 200px;
   display: flex;
-
+  align-items: center;
+  justify-content: space-around;
+ 
 }
+.header2{
+   text-align:justify;
+   left: 250px;
+}
+
+
+.item {
+  width: 160px;
+  height: 160px;
+  border: 4px solid rgb(58, 115, 238);
+  border-radius: 10%;
+  background: rgb(255, 255, 255);
+  gap: 10px;
+  bottom: 250px;
+  text-align: center;
+ 
+  
+}
+.first{
+   
+}
+
+
+
 .container3{
    height: 350px;
   padding: 16px;
@@ -84,7 +138,7 @@ a{
 
 }
 .container5{
-   height: 100px;
+   height: 250px;
   padding: 16px;
   background-color:1F2937;
   border: 4px solid 1F2937;
@@ -105,12 +159,12 @@ a{
    <body>
       <div class="container1">
          <div class="one">
-            <h1 style="display:inline">Header logo</h1>
+            <h1 style="display:inline"><bold>Header logo</bold></h1>
          </div>
          <div class="two">
            
-           <a href="" style="color:E5E7EB">header link one</a>&nbsp;
-           <a href="" style="color:E5E7EB">header link two</a>&nbsp;
+           <a href="" style="color:E5E7EB">header link one</a>&nbsp;&nbsp;&nbsp;&nbsp;
+           <a href="" style="color:E5E7EB">header link two</a>&nbsp;&nbsp;&nbsp;&nbsp;
            <a href=""style="color:E5E7EB">header link three</a>
 
          </div>
@@ -118,10 +172,10 @@ a{
 
       <div class="la">
          <div class="box1">
-            <p style="color:rgb(245, 245, 252);font-size:48px;">This Website is awesome</p> 
+            <p style="color:rgb(245, 245, 252);font-size:48px;"><extra bold>This Website is awesome</extra bold></p> 
             <p style="color:rgb(230, 230, 238);font-size:18px;">jhdsjhsh dshjsjs sdjhbs jhsdja jahdja hadhaj dhjda ajhdja jhsdjdb jsdjh jhdbjd</p>
             <p style="color:rgb(245, 245, 252);font-size:18px;">jhjdshsjjsddj</p>
-
+            <button class="button">Button</button>
          </div>
 
          <div class="box2">
@@ -132,15 +186,33 @@ a{
         
        </div>
 
+       
+       <h1 class="header2" style="color:rgb(23, 23, 31);font-size:36px;"> This is a second block and I hope its gonna be easier</h1>
      <div class="container2">
+      
+     <div class="item"><br><br><br><br><br><br><br><br><br>
+      <p>kjdhk jadk ajhd ajhd hgfh ghvh hghv hghghgvh hgvhvg</p>
      
-     
-
-
-
+   </div>
+     <div class="item"><br><br><br><br><br><br><br><br><br>
+      <p>kjdhk jadk ajhd ajhd hgfh ghvh hghv hghghgvh hgvhvg</p>
+     </div>
+     <div class="item"><br><br><br><br><br><br><br><br><br>
+      <p>kjdhk jadk ajhd ajhd hgfh ghvh hghv hghghgvh hgvhvg</p>
+     </div>
+     <div class="item"><br><br><br><br><br><br><br><br><br>
+      <p>kjdhk jadk ajhd ajhd hgfh ghvh hghv hghghgvh hgvhvg</p>
      </div>
 
+
+
+
+
+
+
      
+
+     </div>
      <div class="container3">
 
 
